@@ -1,0 +1,80 @@
+/* Left sidebar */
+.sidebar .explorer-folders-view .editor-group,
+.sidebar .explorer-folders-view .explorer-item {
+  height: 30px;
+  line-height: 30px;
+}
+.sidebar .explorer-folders-view .monaco-inputbox {
+  margin-top: 4px;
+}
+.sidebar .open-editors .editor-group,
+.sidebar .open-editors .open-editor {
+  line-height: 30px;
+}
+.sidebar .monaco-icon-label:before {
+  height: 30px;
+}
+.sidebar .scm-view .monaco-list-row {
+  line-height: 30px;
+}
+.sidebar .monaco-pane-view .pane > .pane-header > .title {
+  text-transform: none;
+}
+.sidebar .customview-tree .monaco-list .monaco-list-row .custom-view-tree-node-item {
+  height: 30px;
+  line-height: 30px;
+}
+
+/* Source Control */
+.scm-view .monaco-list-row .monaco-icon-label-container {
+  height: 30px;
+}
+
+/* Command Palette */
+.quick-input-widget {
+  top: 50% !important;
+  margin-top: -25%;
+}
+.quick-input-widget .quick-input-list {
+  line-height: 36px;
+}
+.quick-input-widget .quick-input-list-entry-action-bar .actions-container {
+  height: 36px;
+}
+.quick-input-widget .monaco-icon-label:before {
+  height: 36px;
+}
+.quick-input-widget .quick-input-and-message .monaco-inputbox {
+  margin-bottom: 2px;
+}
+.quick-input-widget .quick-input-and-message .monaco-inputbox .ibwrapper > .input {
+  height: 35px;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+}
+.quick-input-widget .quick-input-and-message .controls {
+  top: 0px;
+  top: 50%;
+  margin-top: -10px;
+}
+
+/* Scrollbar */
+.decorationsOverviewRuler {
+  width: 5px !important;
+}
+
+.scrollbar {
+  width: 5px !important;
+}
+.scrollbar .slider {
+  width: 5px !important;
+  border-radius: 2.5px;
+}
+
+/* Composite */
+.composite.has-composite-bar.header-or-footer .composite-bar {
+  margin: 0 auto;
+}
+.composite.has-composite-bar.header-or-footer .composite-bar .actions-container {
+  justify-content: space-around;
+}/*# sourceMappingURL=custom.css.map */
